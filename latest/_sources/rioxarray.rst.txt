@@ -15,16 +15,31 @@ rioxarray.merge module
 .. autofunction:: rioxarray.merge.merge_datasets
 
 
+rioxarray.set_options
+-----------------------
+
+.. autoclass:: rioxarray.set_options
+
+
 rioxarray.show_versions
 -----------------------
 
 .. autofunction:: rioxarray.show_versions
 
 
+rioxarray.enum module
+---------------------
+
+.. automodule:: rioxarray.enum
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
 rioxarray `rio` accessors
 --------------------------
 
-rioxarray `extends xarray <http://xarray.pydata.org/en/stable/internals.html#extending-xarray>`__
+rioxarray `extends xarray <http://xarray.pydata.org/en/stable/internals/extending-xarray.html>`__
 with the `rio` accessor. The `rio` accessor is activated by importing rioxarray like so:
 
 .. code-block:: python

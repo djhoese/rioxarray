@@ -9,16 +9,19 @@ This page contains links to a collection of examples of how to use rioxarray.
    :maxdepth: 1
    :caption: Notebooks:
 
+   resampling.ipynb
    convert_to_raster.ipynb
    clip_geom.ipynb
    clip_box.ipynb
    pad_box.ipynb
+   read-locks.ipynb
    reproject.ipynb
    reproject_match.ipynb
    merge.ipynb
    interpolate_na.ipynb
    transform_bounds.ipynb
    COG.ipynb
+   dask_read_write.ipynb
    Example - Zonal Statistics <https://corteva.github.io/geocube/html/examples/zonal_statistics.html>
 
 
@@ -33,3 +36,11 @@ This page contains links to a collection of examples of how to use rioxarray.
    How to mask NetCDF time series data from a shapefile in Python? <https://gis.stackexchange.com/a/354798/144357>
    Extract data from raster at a point <https://gis.stackexchange.com/a/358058/144357>
    Convert raster to CSV with lat, lon, and value columns <https://gis.stackexchange.com/a/358057/144357>
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: External courses:
+
+   Geospatial Python courses by The Carpentries <https://carpentries-incubator.github.io/geospatial-python/06-raster-intro.html>
+   Geospatial Python courses by Earth Lab at University of Colorado, Boulder <https://earthdatascience.org/courses/use-data-open-source-python/intro-raster-data-python/>
